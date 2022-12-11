@@ -30,7 +30,7 @@
       font-weight: 700;
       font-size: 50px;
       line-height: 62px;
-      margin: 20px;
+      margin: 30px;
       padding: 10px;
       /* identical to box height */
       color: #FFFFFF;
@@ -42,7 +42,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin: 30px;
+      margin: 50px;
       margin-top: 0px;
       padding: 20px;
       &-form{
@@ -71,9 +71,12 @@
       }
       &-button:hover {
         transition: .3s;
-        background: rgba(255,255,255,0.9);
-        color: #0E94BB;
+        background-color: #47637e;
+        color: white;
         cursor: pointer;
+      }
+      &-button:active{
+        box-shadow:inset 1px 1px 10px #333;
       }
       &-form:focus {
         background-color: rgba(0,0,0,0.45);
